@@ -6,6 +6,11 @@ import ducpm.framgia.com.pokemon.R;
 
 public class MainActivity extends AppCompatActivity {
 
+    private final static int a = 10;
+    private final static int AB_aC= 10;
+    private final static String s =
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

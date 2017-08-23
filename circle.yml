@@ -35,7 +35,7 @@ dependencies:
     - /home/ubuntu/.gradle/caches/
     - /home/ubuntu/.gradle/wrapper/
   override:
-    - ./gradlew app:dependencies
+#    - ./gradlew app:dependencies --stacktrace
 test:
   override:
       - sh scripts/saddler.sh
