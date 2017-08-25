@@ -6,13 +6,13 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.framgia.pokemon.R;
 
 /**
  * Pokemon Screen.
  */
 public class PokemonFragment extends Fragment {
-
     public static PokemonFragment newInstance() {
         return new PokemonFragment();
     }
@@ -25,7 +25,7 @@ public class PokemonFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
-            @Nullable Bundle savedInstanceState) {
+                             @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_pokemon, container, false);
     }
 
