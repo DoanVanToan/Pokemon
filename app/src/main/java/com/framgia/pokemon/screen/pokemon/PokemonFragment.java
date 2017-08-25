@@ -13,6 +13,10 @@ import com.framgia.pokemon.R;
  */
 public class PokemonFragment extends Fragment {
 
+    public static PokemonFragment newInstance() {
+        return new PokemonFragment();
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
